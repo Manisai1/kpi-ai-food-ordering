@@ -148,3 +148,12 @@ npm run dev
          *  If you don't have enough past orders, it finds the most popular items bought by everyone else.
          *  It combines this information to suggest a top 5 list of dishes you are most likely to enjoy.
 <img width="903" height="575" alt="image" src="https://github.com/user-attachments/assets/96564998-0601-4592-a3f7-83959b6b8713" />
+
+Admin Dashboard:
+<img width="1584" height="841" alt="image" src="https://github.com/user-attachments/assets/ada6cc3d-544d-4d37-b3b8-2c96709388a3" />
+<img width="1583" height="841" alt="image" src="https://github.com/user-attachments/assets/eab76520-d0d2-493a-b5ba-a5d6387b6314" />
+<img width="1570" height="816" alt="image" src="https://github.com/user-attachments/assets/b36b1b7f-f444-4092-9567-fea77ad59bc9" />
+
+
+
+
