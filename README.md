@@ -83,6 +83,7 @@ Food Ordering system with AI-based searching, smart recommendations, and an AI-p
 - `hashed_password` (String)
 - `role` (String, default: `Customer`)
 - `created_at` (DateTime)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/35790f18-7519-48aa-87f6-585a32f7cb8d" />
 
 ## IAM Rules
 1. JWT token-based authentication using the `python-jose` library. The `/api/auth/login` endpoint is used for OAuth2 login.
@@ -122,6 +123,9 @@ npm run dev
 - It compares your numbers against the numbers of the menu items.
 - It returns the items that mathematically match your search the closest.
 
+<img width="588" height="577" alt="image" src="https://github.com/user-attachments/assets/e4e2064f-bc31-4ec5-8e35-264098a624d4" />
+
+
 2. **LLM Smart Filter:** Uses natural language logic to perform strict filtering for complex user queries.
 
 **Working:** 
@@ -129,8 +133,13 @@ npm run dev
 - The AI reads your request and picks out only the items that match all your specific rules (like price or dietary limits).
 - It returns the final list of items the AI selected.
 
+<img width="578" height="343" alt="image" src="https://github.com/user-attachments/assets/0920fe45-1535-4d94-8041-6af5746296bd" />
+
 **AI Cart Builder:**
 - Uses the LLM to understand natural language inputs and automatically construct an itemized cart for the user.
+<img width="755" height="549" alt="image" src="https://github.com/user-attachments/assets/dcc754bc-de8c-4066-bf27-78a2cb6eb921" />
+
+<img width="512" height="673" alt="image" src="https://github.com/user-attachments/assets/40d85d64-c294-4dad-afa4-41846c44dd94" />
 
 ## Recommendations
 - **Smart Recommendations:** Shown based on the user's past order history supplemented with the restaurant's overall sales history (using standard database heuristics).
@@ -138,3 +147,4 @@ npm run dev
          *  It checks your past order history to see what you order most frequently.
          *  If you don't have enough past orders, it finds the most popular items bought by everyone else.
          *  It combines this information to suggest a top 5 list of dishes you are most likely to enjoy.
+<img width="903" height="575" alt="image" src="https://github.com/user-attachments/assets/96564998-0601-4592-a3f7-83959b6b8713" />
